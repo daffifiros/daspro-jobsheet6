@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Pertanyaan2Percobaan1",
+            "request": "launch",
+            "mainClass": "Pertanyaan2Percobaan1",
+            "projectName": "daspro-jobsheet6_57dd3823"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
