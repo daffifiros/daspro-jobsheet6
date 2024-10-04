@@ -2,11 +2,11 @@
 
     public class Pertanyaan2Percobaan1 {
         public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
+            Scanner input17 = new Scanner(System.in);
 
             // Meminta input dari user
             System.out.print("Masukkan tahun: ");
-            int tahun = scanner.nextInt();
+            int tahun = input17.nextInt();
 
             // Mengecek apakah tahun kabisat atau bukan
             if (tahun % 4 == 0) {
