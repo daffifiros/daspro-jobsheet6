@@ -3,11 +3,9 @@ import java.util.Scanner;
 public class Flowchart1TanpaOperatorLogika {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
-        // Deklarasi variabel
+    
         int bil1, bil2, bil3;
         
-        // Input nilai dari user
         System.out.print("Masukkan bilangan 1: ");
         bil1 = scanner.nextInt();
         System.out.print("Masukkan bilangan 2: ");

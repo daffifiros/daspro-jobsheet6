@@ -4,6 +4,7 @@ public class Flowchart2 {
         Scanner scanner = new Scanner(System.in);
         String jenisBuku;
         int jumlahBuku;
+        double diskon = 0;
 
         System.out.print("Masukkan jenis buku: ");
         jenisBuku = scanner.nextLine();
@@ -19,7 +20,8 @@ public class Flowchart2 {
         } else if (jenisBuku.equalsIgnoreCase("Novel") && jumlahBuku >= 2) {
             System.out.println("Diskon 8%");
         } else {
-            System.out.println("Diskon 0%");
+            System.out.println("Jenis buku tidak valid");
+            
         }
     }
 }
