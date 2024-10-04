@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Flowchart1TanpaOperatorLogika",
+            "request": "launch",
+            "mainClass": "Flowchart1TanpaOperatorLogika",
+            "projectName": "daspro-jobsheet6_57dd3823"
+        },
+        {
+            "type": "java",
             "name": "Pertanyaan2Percobaan1",
             "request": "launch",
             "mainClass": "Pertanyaan2Percobaan1",
